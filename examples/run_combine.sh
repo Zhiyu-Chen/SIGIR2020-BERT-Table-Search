@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 ################################################# Rows + MAX ################################################
 CUDA_VISIBLE_DEVICES=0 python run_combine.py \
  --data_dir '../data' \
