@@ -1,4 +1,6 @@
 
+#!/usr/bin/env bash
+
 #######################################################################  rows + max
 CUDA_VISIBLE_DEVICES=0,1 python run_table.py \
  --data_dir '../data/' \
