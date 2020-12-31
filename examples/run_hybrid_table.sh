@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 ################################################# Rows + MAX ################################################
 CUDA_VISIBLE_DEVICES=0,1 python run_hybrid_table.py \
  --data_dir '../data' \
