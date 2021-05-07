@@ -8,7 +8,7 @@
 
 ## Running Examples
 
-1. run_table.py: without additional features. Only BERT is used. "table_content.sh" is an example to run it.
+1. run_table.py: without additional features. Only BERT is used. "run_content.sh" is an example to run it.
 2. run_hybrid_table.py: jointly training BERT with additional features. "run_hybrid_table.sh" is an example to run it.
 3. run_combine.py: feature-based approach of BERT. "run_combine.sh" is an example to run it. Since this method uses the fine-tuned BERT model, the corresponding method should be run by "run_table.py" 1st. The script will read the saved BERT weights by "run_table.py" from the output directory of corresponding fold.
 
